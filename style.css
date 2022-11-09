@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: hsl(216, 12%, 8%);
+  font-family: "Overpass", sans-serif;
+  Font-size: 15px;
+}
+
+#contenedor-principal {
+  width: 400px;
+  height: 65vh;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  padding: 30px;
+  background-color:#212832;
+  border-radius: 20px;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.estrellita{
+  text-align: left;
+  padding: 15px;
+  background-color: #262f38;
+  border-radius: 50px;
+  height: 15px;
+  align-self: flex-start;
+  position: relative;
+  left: 19px;
+}
+
+.iconito {
+  margin-top: 0;
+}
+
+.Titulo{
+  padding: 20px;
+  align-self: flex-start;
+  color: white;
+}
+.parrafo{
+  width: 90%;
+  position: relative;
+  left: 18px;
+  align-self: flex-start;
+  color: hsl(216, 12%, 54%);
+  text-align: left;
+}
+.calificacion{
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  margin: 0 10px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  width: 55px;
+  height: 55px;
+  gap: 10px;
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(216, 12%, 54%);
+  border-radius: 180px;
+  border: none;
+}
+.calificacion:hover{
+  cursor: pointer;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
+.selected {
+  cursor: pointer;
+  background-color: #7c8898;
+  color: white;
+}
+
+#enviar{
+  font-family: "Overpass", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  width: 90%;
+  height: 55px;
+  margin: 2px;
+  border-radius: 25px;
+  border-color: hsl(25, 97%, 53%);
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+#enviar:hover{
+    cursor: pointer;
+    border-color: white;
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+img {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(213, 17%, 26%);
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  padding-top: 20px;
+}
+
+h2 {
+  color: white;
+  position: relative;
+  top: -10px;
+}
+
+p {
+  position: relative;
+  top: -25px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  color: hsl(216, 12%, 54%);
+}
+
+@media screen and (max-width: 700px){
+    #contenedor-principal{
+        width: 80%;
+        min-height: 80%;
+    }
+}
+
