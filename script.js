@@ -10,7 +10,7 @@ const cinco = document.getElementById('cinco');
 const opcionSeleccionada = (_value) => {
   const respuesta = new DocumentFragment();
   const img = document.createElement('img');
-  img.setAttribute('src', './illustration-thank-you.svg');
+  img.setAttribute('src', './imgs/illustration-thank-you.svg');
   const opcion = document.createElement('h4');
   const opinion = document.createTextNode(`Seleccionaste ${_value} de 5`);
   const agradecimiento = document.createElement('h2');
